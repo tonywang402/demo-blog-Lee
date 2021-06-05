@@ -1,0 +1,40 @@
+nav {
+    width: 60%;
+    margin: 3em auto 2em;
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+}
+
+nav div {
+    margin-left: 15em;
+    
+}
+
+nav div a + a {
+    margin-left: 2em;
+}
+
+main {
+    width: 55%;
+    margin: 0 auto;
+}
+
+
+a div div {
+    display:flex;
+}
+
+.footerlogo {
+    display: flex;
+    
+}
+
+footer > div:last-child {
+    display:flex;
+    justify-content:space-between;
+}
+
+footer > div:last-child div a {
+    display:block;
+}
