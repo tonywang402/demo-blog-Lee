@@ -1,23 +1,41 @@
+html {
+    line-height: 1.5;
+}
+
 nav {
-    width: 60%;
-    margin: 3em auto 2em;
+    width: 100%;
+    max-width: 56rem;
+    margin: 2rem auto 2rem;
+    padding: 2rem;
     display: flex;
     justify-content: space-between;
     font-size: larger;
+    align-items: center;
+}
+button {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.5rem;
 }
 
 nav div {
-    margin-left: 15em;
+    display: block;
     
 }
 
-nav div a + a {
-    margin-left: 2em;
+nav div a {
+    padding: 1rem;
 }
 
-main {
-    width: 55%;
-    margin: 0 auto;
+main > div{
+    max-width: 42rem;
+    margin-bottom: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 
@@ -25,16 +43,113 @@ a div div {
     display:flex;
 }
 
-.footerlogo {
+main {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    line-height: 1.5;
     display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+footer {
+    width: 100%;
+    max-width: 42rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;    
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+footer hr {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 2rem;
+    border-top-width: 1px;
+    height: 0;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    margin-bottom: 2rem;
     
 }
 
-footer > div:last-child {
-    display:flex;
-    justify-content:space-between;
+.footerlogo {
+    display: inline-flex;
+    flex-direction: row;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%;
+    width: 100%;
 }
 
-footer > div:last-child div a {
-    display:block;
+footer > div:last-child {
+    display:grid;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    justify-content:space-between;
+    gap: 1rem;
+    max-width: 42rem;
+    width: 100%;
+    padding-bottom: 4rem;
+}
+
+footer > div:last-child div {
+    display:flex;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+
+h1, h2, h3, h4, p{
+    margin: 0;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.relative {
+    position: relative;
+}
+
+.py-2 {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+input {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+
+.block {
+    display: block;
+}
+
+.border {
+    border-width: 1px;
+}
+
+.rounded-md {
+    border-radius: .375rem;
+}
+
+.mt-8 {
+    margin-top: 2rem;
 }
