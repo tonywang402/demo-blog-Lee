@@ -26,8 +26,16 @@ nav {
     align-items: center;
 }
 
+.items-start {
+    align-items: flex-start;
+}
+
 .w-full {
     width: 100%;
+}
+
+.max-w-2xl {
+    max-width: 42rem;
 }
 
 .max-w-4xl {
@@ -91,18 +99,6 @@ a div div {
     display: flex;
 }
 
-footer {
-    width: 100%;
-    max-width: 42rem;
-    margin-bottom: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-}
-
 footer hr {
     width: 100%;
     margin: 0;
@@ -145,6 +141,10 @@ footer>div:last-child div {
 
 .mb-4 {
     margin-bottom: 1rem;
+}
+
+.mb-8 {
+    margin-bottom: 2rem;
 }
 
 h1,
