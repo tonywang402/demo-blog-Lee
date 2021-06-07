@@ -7,9 +7,18 @@ nav {
     max-width: 56rem;
     margin: 2rem auto 2rem;
     padding: 2rem;
-    display: flex;
-    justify-content: space-between;
     font-size: larger;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
     align-items: center;
 }
 
