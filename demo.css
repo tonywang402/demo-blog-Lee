@@ -147,6 +147,10 @@ footer>div:last-child div {
     margin-bottom: 2rem;
 }
 
+.mb-16 {
+    margin-bottom: 4rem;
+}
+
 h1,
 h2,
 h3,
