@@ -12,6 +12,7 @@ nav {
     font-size: larger;
     align-items: center;
 }
+
 button {
     width: 2.5rem;
     height: 2.5rem;
@@ -20,14 +21,13 @@ button {
 
 nav div {
     display: block;
-    
 }
 
 nav div a {
     padding: 1rem;
 }
 
-main > div{
+main>div {
     max-width: 42rem;
     margin-bottom: 4rem;
     margin-left: auto;
@@ -38,9 +38,8 @@ main > div{
     align-items: flex-start;
 }
 
-
 a div div {
-    display:flex;
+    display: flex;
 }
 
 main {
@@ -57,7 +56,7 @@ footer {
     max-width: 42rem;
     margin-bottom: 2rem;
     margin-left: auto;
-    margin-right: auto;    
+    margin-right: auto;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -76,7 +75,6 @@ footer hr {
     display: flex;
     width: 100%;
     margin-bottom: 2rem;
-    
 }
 
 .footerlogo {
@@ -89,18 +87,18 @@ footer hr {
     width: 100%;
 }
 
-footer > div:last-child {
-    display:grid;
-    grid-template-columns: repeat(3, minmax(0,1fr));
-    justify-content:space-between;
+footer>div:last-child {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    justify-content: space-between;
     gap: 1rem;
     max-width: 42rem;
     width: 100%;
     padding-bottom: 4rem;
 }
 
-footer > div:last-child div {
-    display:flex;
+footer>div:last-child div {
+    display: flex;
     flex-direction: column;
     line-height: 1.5;
 }
@@ -109,8 +107,11 @@ footer > div:last-child div {
     margin-bottom: 1rem;
 }
 
-
-h1, h2, h3, h4, p{
+h1,
+h2,
+h3,
+h4,
+p {
     margin: 0;
 }
 
