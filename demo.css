@@ -70,10 +70,25 @@ nav {
     }
 }
 
-button {
+.w-10 {
     width: 2.5rem;
+}
+
+.h-10 {
     height: 2.5rem;
-    padding: 0.5rem;
+}
+
+.p-3 {
+    padding: .75rem;
+}
+
+.bg-gray-200 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(229, 231, 255, var(--tw-bg-opacity));
+}
+
+.rounded {
+    border-radius: .25rem;
 }
 
 nav div {
