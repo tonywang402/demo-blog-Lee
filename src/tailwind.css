@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+@tailwind utilities;
